@@ -1,0 +1,31 @@
+{
+  "name": "thoughtmesh",
+  "version": "1.0.0",
+  "description": "Multi-agent framework with WebSocket message bus",
+  "bin": {
+    "tm": "./bin/tm.js"
+  },
+  "scripts": {
+    "tm": "tsx src/cli.ts",
+    "serve": "tsx src/cli.ts serve",
+    "agent": "tsx src/cli.ts agent"
+  },
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "commander": "^12.1.0",
+    "glob": "^11.0.0",
+    "gray-matter": "^4.0.3",
+    "ollama": "^0.5.9",
+    "uuid": "^10.0.0",
+    "ws": "^8.18.0",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/uuid": "^10.0.0",
+    "@types/ws": "^8.5.12",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}

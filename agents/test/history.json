@@ -1,0 +1,222 @@
+[
+  {
+    "id": "5b54b871-b030-4e32-b114-086638445daf",
+    "timestamp": "2026-05-25T17:31:48.497Z",
+    "from": "user",
+    "content": "your task is to exit directly",
+    "priority": "normal",
+    "status": "completed",
+    "steps": [
+      {
+        "tool": "idle",
+        "args": {
+          "result": "Exiting directly and waiting for the next message."
+        },
+        "result": "Exiting directly and waiting for the next message."
+      }
+    ]
+  },
+  {
+    "id": "be79b0b6-0fc5-4689-a95d-cb921a5593b4",
+    "timestamp": "2026-05-25T17:35:27.379Z",
+    "from": "user",
+    "content": "\"helo how are you doing?\"",
+    "priority": "normal",
+    "status": "completed",
+    "steps": [
+      {
+        "tool": "idle",
+        "args": {
+          "result": "I'm doing well, thank you for asking! How can I help you today?"
+        },
+        "result": "I'm doing well, thank you for asking! How can I help you today?"
+      }
+    ]
+  },
+  {
+    "id": "b26c1e77-a936-484c-83e8-2f5386930b8c",
+    "timestamp": "2026-05-25T17:43:17.090Z",
+    "from": "user",
+    "content": "your task is to send a hello message to the user",
+    "priority": "normal",
+    "status": "completed",
+    "steps": [
+      {
+        "tool": "send_message",
+        "args": {
+          "to": "user",
+          "content": "Hello!"
+        },
+        "result": "Message sent to user"
+      },
+      {
+        "tool": "idle",
+        "args": {
+          "result": "Message sent to user"
+        },
+        "result": "Message sent to user"
+      }
+    ]
+  },
+  {
+    "id": "8b31b989-a16a-4808-8871-609a7b0eb188",
+    "timestamp": "2026-05-25T17:44:08.825Z",
+    "from": "user",
+    "content": "\"hey how are you doing?\"",
+    "priority": "normal",
+    "status": "completed",
+    "steps": [
+      {
+        "tool": "idle",
+        "args": {
+          "result": "I'm doing great, thanks for asking! How about you?"
+        },
+        "result": "I'm doing great, thanks for asking! How about you?"
+      }
+    ]
+  },
+  {
+    "id": "aa4601e3-2307-4ce9-8a01-4f8692c2537e",
+    "timestamp": "2026-05-25T17:48:21.607Z",
+    "from": "user",
+    "content": "your task is to send a hello message to the user",
+    "priority": "normal",
+    "status": "completed",
+    "steps": [
+      {
+        "tool": "send_message",
+        "args": {
+          "to": "user",
+          "content": "Hello!"
+        },
+        "result": "Message sent to user"
+      },
+      {
+        "tool": "idle",
+        "args": {
+          "result": "Message sent to user"
+        },
+        "result": "Message sent to user"
+      }
+    ]
+  },
+  {
+    "id": "82449204-8ce0-4251-8e8d-7b10fcdeb5b6",
+    "timestamp": "2026-05-25T17:49:21.508Z",
+    "from": "user",
+    "content": "\"Hey, I am glad you are online now. Can you list me the tools available to you? Send back a message to me.\"",
+    "priority": "normal",
+    "status": "completed",
+    "steps": [
+      {
+        "tool": "discover_skills",
+        "args": {},
+        "result": "math-and-time: Perform calculations and retrieve the current date/time [tools: calculator, get_date]"
+      },
+      {
+        "tool": "idle",
+        "args": {
+          "result": "I have the following tools available to help you: math-and-time: Perform calculations and retrieve the current date/time. This tool includes sub-tools like `calculator` and `get_date`."
+        },
+        "result": "I have the following tools available to help you: math-and-time: Perform calculations and retrieve the current date/time. This tool includes sub-tools like `calculator` and `get_date`."
+      }
+    ]
+  },
+  {
+    "id": "6571af55-fafd-4e15-a58d-209eaf81e0dd",
+    "timestamp": "2026-05-25T17:54:38.979Z",
+    "from": "user",
+    "content": "\"Can you make the calculation 3249230129505420 * 2933950349340124 - 2312323 + (123 + 123 * 7)?\"",
+    "priority": "normal",
+    "status": "interrupted",
+    "steps": []
+  },
+  {
+    "id": "f5c9d1f8-7a53-441d-a232-15e783fc19ba",
+    "timestamp": "2026-05-25T17:55:19.659Z",
+    "from": "user",
+    "content": "\"Hey, are you there?\"",
+    "priority": "normal",
+    "status": "completed",
+    "steps": [
+      {
+        "tool": "idle",
+        "args": {
+          "result": "I'm here! How can I help you today?"
+        },
+        "result": "I'm here! How can I help you today?"
+      }
+    ]
+  },
+  {
+    "id": "9b424a92-8654-4bf1-aba8-351185b6ba8f",
+    "timestamp": "2026-05-25T17:56:42.477Z",
+    "from": "user",
+    "content": "\"I want you to make a new thing, specifically, I want you to list all the skills available to you\"",
+    "priority": "normal",
+    "status": "completed",
+    "steps": [
+      {
+        "tool": "discover_skills",
+        "args": {},
+        "result": "math-and-time: Perform calculations and retrieve the current date/time [tools: calculator, get_date]"
+      },
+      {
+        "tool": "idle",
+        "args": {
+          "result": "math-and-time: Perform calculations and retrieve the current date/time [tools: calculator, get_date]"
+        },
+        "result": "math-and-time: Perform calculations and retrieve the current date/time [tools: calculator, get_date]"
+      }
+    ]
+  },
+  {
+    "id": "60d4c8fb-7f27-44c9-9659-9b517aaa9d03",
+    "timestamp": "2026-05-25T17:57:44.062Z",
+    "from": "user",
+    "content": "your task is to send a hello message to the user",
+    "priority": "normal",
+    "status": "completed",
+    "steps": [
+      {
+        "tool": "send_message",
+        "args": {
+          "to": "user",
+          "content": "Hello!"
+        },
+        "result": "Message sent to user"
+      },
+      {
+        "tool": "idle",
+        "args": {
+          "result": "Message sent to user"
+        },
+        "result": "Message sent to user"
+      }
+    ]
+  },
+  {
+    "id": "bedcc30e-fafe-46cc-a67a-0b6d25c350f3",
+    "timestamp": "2026-05-25T17:58:30.810Z",
+    "from": "user",
+    "content": "\"Can you tell me the date today?\"",
+    "priority": "normal",
+    "status": "completed",
+    "steps": [
+      {
+        "tool": "get_date",
+        "args": {
+          "format": "iso"
+        },
+        "result": "2026-05-25T17:58:35.532Z"
+      },
+      {
+        "tool": "idle",
+        "args": {
+          "result": "The date today is May 25, 2026."
+        },
+        "result": "The date today is May 25, 2026."
+      }
+    ]
+  }
+]
